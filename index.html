@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>آموزشگاه سوشل</title>
+  <!-- TailwindCSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+  <!-- فونت -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- فایل CSS حرفه‌ای -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50">
+
+  <!-- ================= Header ================= -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold text-indigo-600">آموزشگاه حرفه‌ای</h1>
+      <nav class="space-x-4">
+        <a href="#courses">دوره‌ها</a>
+        <a href="#about">درباره ما</a>
+        <a href="#contact">تماس</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ================= Hero Section ================= -->
+  <section class="hero h-screen flex items-center justify-center text-center text-white">
+    <div class="bg-black/50 p-10 rounded-lg">
+      <h2 class="text-4xl md:text-6xl font-bold mb-4">به آموزشگاه حرفه‌ای خوش آمدید</h2>
+      <p class="text-lg md:text-2xl mb-6">یادگیری آنلاین با بهترین اساتید و دوره‌ها</p>
+      <a href="#courses" class="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg font-semibold transition">شروع یادگیری</a>
+    </div>
+  </section>
+
+  <!-- ================= Courses Section ================= -->
+  <section id="courses" class="py-16 container mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">دوره‌های ما</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition fade-in">
+        <h3 class="text-xl font-semibold mb-2">دوره طراحی وب</h3>
+        <p class="text-gray-600 mb-4">آموزش کامل HTML، CSS، JavaScript و فریم‌ورک‌ها.</p>
+        <a href="#" class="text-indigo-600 font-semibold hover:underline">جزئیات بیشتر</a>
+      </div>
+      <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition fade-in">
+        <h3 class="text-xl font-semibold mb-2">دوره گرافیک</h3>
+        <p class="text-gray-600 mb-4">یادگیری Photoshop، Illustrator و طراحی حرفه‌ای.</p>
+        <a href="#" class="text-indigo-600 font-semibold hover:underline">جزئیات بیشتر</a>
+      </div>
+      <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition fade-in">
+        <h3 class="text-xl font-semibold mb-2">دوره برنامه‌نویسی</h3>
+        <p class="text-gray-600 mb-4">Python، Java و پروژه‌های عملی.</p>
+        <a href="#" class="text-indigo-600 font-semibold hover:underline">جزئیات بیشتر</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= About Section ================= -->
+  <section id="about" class="py-16 bg-gray-100">
+    <div class="container mx-auto text-center fade-in">
+      <h2 class="text-3xl font-bold mb-6 text-gray-800">درباره ما</h2>
+      <p class="max-w-3xl mx-auto text-gray-600">ما یک آموزشگاه حرفه‌ای هستیم که با بهترین اساتید و دوره‌های مدرن، مهارت‌های مورد نیاز شما را فراهم می‌کنیم. هدف ما ارتقای مهارت‌های دیجیتال و عملی شماست.</p>
+    </div>
+  </section>
+
+  <!-- ================= Contact Section ================= -->
+  <section id="contact" class="py-16 container mx-auto fade-in">
+    <h2 class="text-3xl font-bold text-center mb-6 text-gray-800">تماس با ما</h2>
+    <form class="max-w-xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+      <div class="mb-4">
+        <label class="block text-gray-700 mb-2">نام شما</label>
+        <input type="text" class="w-full border border-gray-300 rounded p-2" placeholder="نام خود را وارد کنید">
+      </div>
+      <div class="mb-4">
+        <label class="block text-gray-700 mb-2">ایمیل</label>
+        <input type="email" class="w-full border border-gray-300 rounded p-2" placeholder="ایمیل شما">
+      </div>
+      <div class="mb-4">
+        <label class="block text-gray-700 mb-2">پیام</label>
+        <textarea class="w-full border border-gray-300 rounded p-2" rows="5" placeholder="پیام خود را بنویسید"></textarea>
+      </div>
+      <button type="submit" class="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg font-semibold transition">ارسال پیام</button>
+    </form>
+  </section>
+
+  <!-- ================= Footer ================= -->
+  <footer class="bg-gray-800 text-white text-center p-6 mt-12">
+    © 2026 آموزشگاه حرفه‌ای. همه حقوق محفوظ است.
+  </footer>
+
+  <!-- فایل JavaScript حرفه‌ای -->
+  <script src="script.js"></script>
+</body>
+</html>
